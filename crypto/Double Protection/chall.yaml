@@ -8,7 +8,7 @@ challenge:
   files:
   - dist/app.py
   flags:
-  - flag: GCTF{d0Ubl3_eNcRyp71on_1sNt_g0oD}
+  - flag: GCTF23{d0Ubl3_eNcRyp71on_1sNt_g0oD}
     regex: false
   hints: null
   name: Double Protection

@@ -18,4 +18,4 @@ None
 None
 
 ## Flags
-- `GCTF{x0R_kN0wN_pLa1n_tX7_at7AcK}` (static)
+- `GCTF23{x0R_kN0wN_pLa1n_tX7_at7AcK}` (static)
