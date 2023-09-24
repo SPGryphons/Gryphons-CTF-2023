@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Create Paste{% endblock %}
+{% block nav_items %}
+  <li class="nav-item">
+    <a class="nav-link" href="/profile">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="/create">Create</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/logout">Logout</a>
+  </li>
+{% endblock %}
+{% block jumbo_title %}Create Paste{% endblock %}
+{% block jumbo_text %}Welcome, {{ username }}!{% endblock %}
+{% block main %}
+
+  <div class="row-cols-1">
+    <div class="alert alert-warning" role="alert">
+      The website is currently under maintenance, so new pastes will cannot be created at this time.
+    </div>
+  </div>
+
+  <p> Create a paste below! </p>
+
+  <div class="row-cols-1">
+    <div class="error alert alert-danger" role="alert" style="display: none;">
+    </div>
+  </div>
+
+  <form onsubmit="return false;">
+    <div class="form-group">
+      <label for="title">Title</label> 
+      <input class="form-control" id="title" name="title" type="text" required disabled>
+    </div>
+    <div class="form-group">
+      <label for="content">Content</label>
+      <textarea class="form-control" id="content" name="content" rows="10" required disabled></textarea>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-success" onclick="create()" disabled>Create</button>
+    </div>
+  </form>
+{% endblock %}

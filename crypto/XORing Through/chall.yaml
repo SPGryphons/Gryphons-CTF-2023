@@ -1,0 +1,16 @@
+challenge:
+  author: Koh Kai En
+  category: Crypto
+  description: My classmate locked the photo of my flag! PLEASE help!! I failed ACG
+    and dont understand the script he used!!
+  difficulty: Medium
+  discord: thereconman
+  files:
+  - dist/xoring_through.py
+  flags:
+  - flag: GCTF{x0R_kN0wN_pLa1n_tX7_at7AcK}
+    regex: false
+  hints: null
+  name: XORing Through
+  requirements: null
+services: null

@@ -1,0 +1,28 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Web
+  description: Introducing Knockoff Pastebin, a safe and secure Pastebin clone to fulfill all your pasting needs!
+  difficulty: Hard
+  discord: juscodin
+  files:
+  - dist/knockoff-pastebin.zip
+  flags:
+  - flag: GCTF23{P@7H_TRAvERsa1_4ND_FLAsk_De8u9_moDe_15_A_dang3RoU$_com8!N@T!0N}
+    regex: false
+  hints:
+  - cost: 100
+    description: The JWT "kid" header is used to uniquely identify the key used to
+      sign it, surely it's secure... right?
+    requirements: null
+  - cost: 100
+    description: I heard that it is not a good idea to enable debug mode in production,
+      I wonder why...
+    requirements:
+    - 0
+  name: Knockoff Pastebin
+  requirements: null
+services:
+  knockoff-pastebin:
+    name: knockoff-pastebin
+    path: service/knockoff-pastebin
+    port: '1337'

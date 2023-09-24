@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}View Paste{% endblock %}
+{% block nav_items %}
+  {% if username %}
+  <li class="nav-item">
+    <a class="nav-link" href="/profile">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/create">Create</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/logout">Logout</a>
+  </li>
+  {% else %}
+  <li class="nav-item">
+    <a class="nav-link" href="/login">Login</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/register">Register</a>
+  </li>
+  {% endif %}
+{% endblock %}
+
+{% block jumbo_title %}View Paste{% endblock %}
+{% if username %}
+{% block jumbo_text %}Welcome, {{ username }}!{% endblock %}
+{% endif %}
+
+{% block main %}
+<pre class="row-cols-1 bg-white rounded"><code>{{ content }}</code></pre>
+
+<div class="text-center py-2">
+  <a href="/raw/{{ link }}" class="btn btn-primary">View Raw</a>
+  {% if username %}
+  <a href="/profile" class="btn btn-primary">Back</a>
+  {% else %}
+  <a href="/" class="btn btn-primary">Back</a>
+  {% endif %}
+</div>
+{% endblock %}

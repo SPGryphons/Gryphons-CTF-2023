@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="GCTF.css" rel="stylesheet">
+    <title>GCTF23</title>
+</head>
+
+<body id="Join">
+    <nav class="navbar navbar-expand-lg" id="join">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/Bcat.jpg" alt="Logo"
+                    width="60"></a><!--Image Credits: https://th.bing.com/th/id/OIP.bOm2SeSO3Jh1QK104O0o4QHaHa?pid=ImgDet&rs=1 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="EvilCats.html">Evil Cats-I</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="EvilCats2.html">Evil Cats-II</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="JoinUs.html">Join Us</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </nav>
+    <form id="myform" class="needs-validation">
+        <div class="foorm">
+            <h1>Join the Fight Against the Cat Revolution!</h1>
+            <h4>Are you ready to stand alongside us in thwarting the feline
+                plot for world domination? Join our ranks and help us uncover
+                their whisker-twisting schemes! Sign up below to receive updates,
+                mission briefings, and exclusive access to our purr-tection plans 😺🛡️</h4>
+        </div>
+        <div class="mb-3 foorm">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="Name" id="form" required>
+            <div class="invalid-feedback">
+                Please choose a username.
+            </div>
+        </div>
+        <div class="mb-3 foorm">
+            <label for="Email" class="form-label">Email address</label>
+            <img src="Images/catflag.png" alt="">
+            <!--Image Credits: https://pbs.twimg.com/media/FqNt93MWcAAnxKy.jpg -->
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                placeholder="name@example.com" required>
+            <div id="emailHelp" class="form-text">Your Email is safe in our hands</div>
+        </div>
+        <div class="foorm">
+            <select class="form-select" aria-label="Default select example" required>
+                <option selected>Your Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Rather Not Say</option>
+            </select>
+        </div>
+        <div class="foorm">
+        <h5>Preferred Division</h5>
+        </div>
+        <div class="form-check foorm">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Medical Corps
+            </label>
+        </div>
+        <div class="form-check foorm">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Logistics and Supplies
+            </label>
+        </div>
+        <div class="form-check foorm">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Strategic Planning
+            </label>
+        </div>
+        <div class="form-check foorm">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Ground Operations
+            </label>
+        </div>
+        <div class="mb-3 foorm">
+            <label for="Textarea" class="form-label">Any particular skill that you may have that might help us win this War?</label>
+            <textarea class="form-control" id="Textarea" rows="5" placeholder="Any unique talent or knowledge you possess, no matter how unusual, could make a significant difference!"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+        defer></script>
+</body>
+
+</html>

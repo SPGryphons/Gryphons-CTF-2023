@@ -1,0 +1,137 @@
+nav.navbar.navbar-expand-lg {
+    padding: 1vw;
+    background-image: linear-gradient(to right, black, rgb(58, 96, 96));
+}
+
+@keyframes scaleLoop {
+    0% {
+        transform: scale(1);
+        /* Start with the original scale (1) */
+    }
+
+    50% {
+        transform: scale(1.24);
+        /* Scale to 1.5 at 50% of the animation duration */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Return to the original scale at the end of the animation (100%) */
+    }
+}
+
+a.navbar-brand {
+    animation: scaleLoop 0.8s infinite;
+}
+
+a.nav-link {
+    color: whitesmoke;
+    transition: .25s ease-in;
+}
+
+li.nav-item {
+    padding-left: 2vw;
+}
+
+a.navbar-brand {
+    padding: 0;
+}
+
+a.nav-link:hover {
+    background: linear-gradient(to right, #ffff00, #ff3399);
+    color: rgb(53, 47, 78);
+    border-radius: 15px;
+    transform: scale(1.15, 1.15);
+}
+
+div#row-2.row {
+    margin-top: 4%;
+}
+
+div#col-3-1 p {
+    font-size: 1.3rem;
+}
+
+#head1 h1 {
+    font-size: 3rem;
+}
+
+#head h3 {
+    font-size: 2.5rem;
+}
+
+#Cats {
+    background-color: #ece6e6;
+}
+
+#cat {
+    background-color: #deede1;
+}
+
+div.modal-body div.row {
+    padding-top: 2%;
+}
+
+div.row#row-5 {
+    padding: 1.5%;
+}
+
+div.modal.fade#exampleModal h5 {
+    font-size: 1.5rem;
+}
+
+div.modal.fade#exampleModal div.modal-body {
+    font-size: 1.1rem;
+}
+
+#head11 h1 {
+    font-size: 2.5rem;
+}
+
+#head22 h3 {
+    font-size: 2.2rem;
+}
+
+div#col-3-2.col-md-5 footer {
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    background-color: #e8e8e8;
+    padding: 4%;
+    border-radius: 30px;
+    width: 80%;
+    padding: auto;
+    margin: auto;
+}
+
+form img {
+    display: none;
+}
+
+div.foorm,
+div.form-check.foorm,
+div.mb-3.foorm {
+    margin: 5%;
+}
+
+div.foorm h1 {
+    margin-bottom: 4%;
+}
+
+nav#join.navbar.navbar-expand-lg {
+    margin-bottom: 5%;
+}
+
+body#Join {
+    background: url(Images/stars.jpg);
+    /*Image Credits: https://th.bing.com/th/id/R.c6280e8f909cdaa96f599f4b611e876c?rik=qMe3%2fCCkXAmrHg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-14%2fStars-HD-Wallpaper-37023.jpeg&ehk=0963WPvcg8xpUplHlxcK0zEFoRqUaQUdRIcZSdWJdNI%3d&risl=1&pid=ImgRaw&r=0 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}

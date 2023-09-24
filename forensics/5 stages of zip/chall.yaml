@@ -1,0 +1,15 @@
+challenge:
+  author: Koh Kai En
+  category: Forensics
+  description: Experience all 5 stages of the average DCDF student in Singapore Polytechnic!
+  difficulty: Hard
+  discord: thereconman
+  files:
+  - dist/5 stages of zip.zip
+  flags:
+  - flag: GCTF23{y0U_aR3_a_z1P_fIL3_m4St3R}
+    regex: false
+  hints: null
+  name: 5 stages of zip
+  requirements: null
+services: null

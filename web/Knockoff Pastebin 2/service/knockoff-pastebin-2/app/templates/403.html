@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+		<title>Logout</title>
+
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				text-align: center;
+				padding-top: 100px;
+				font-size: 24px;
+			}
+		</style>
+		<script>
+			function startCountdown() {
+				let count = 3;
+				const countdownElement = document.getElementById("countdown");
+
+				const countdownInterval = setInterval(() => {
+					count--;
+					countdownElement.textContent = count;
+
+					if (count <= 0) {
+						clearInterval(countdownInterval);
+						window.location.href = "/";
+					}
+				}, 1000);
+			}
+
+			window.onload = function () {
+				startCountdown();
+			};
+		</script>
+	</head>
+	<body>
+		<div id="main-content">
+			<h1>403 Forbidden</h1>
+			<p>You don't have permission to access this page.</p>
+			<p>Redirecting in <span id="countdown">3</span>...</p>
+		</div>
+	</body>
+</html>

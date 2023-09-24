@@ -1,0 +1,32 @@
+challenge:
+  author: Aai Xun En Ryan
+  category: Re
+  description: A software company had a developer create a program that automatically
+    generates a license key for their top client, "Tharman Shanmugaratnam." However,
+    they now need to generate a license for another VIP client but lost the original
+    source code. Your goal is to reverse engineer the software to understand how the
+    license key generation algorithm works and then generate a valid license key for
+    the name "Halimah Yacob."
+  difficulty: Hard
+  discord: imcrazzzzz
+  files:
+  - dist/license_gen.exe
+  flags:
+  - flag: GCTF23{ZAGA-DWYS-ZKRM-EXXX}
+    regex: false
+  hints:
+  - cost: 5
+    description: Since you don't have any control over the input, focus on understanding
+      how the hardcoded name transforms into the output key.
+    requirements: null
+  - cost: 10
+    description: The logic isn't overtly complex, but it does involve bitwise manipulations
+      and some mathematical operations. Diving deep into assembly could prove helpful.
+    requirements: null
+  - cost: 20
+    description: Think about ASCII values. There's a pattern involved with how the
+      input name is transformed.
+    requirements: null
+  name: Lost License
+  requirements: null
+services: null

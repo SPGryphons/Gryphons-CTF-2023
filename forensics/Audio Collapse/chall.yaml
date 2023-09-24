@@ -1,0 +1,15 @@
+challenge:
+  author: Branson Woo
+  category: Misc
+  description: Not even gods can stand before this and live...
+  difficulty: Easy
+  discord: b0hlia0_th3_j3st3r
+  files:
+  - dist/univ3rs4l_c0ll4ps3.wav
+  flags:
+  - flag: GCTF23{4udi0_c0ll4ps3}
+    regex: false
+  hints: null
+  name: Audio Collapse
+  requirements: null
+services: null

@@ -1,0 +1,20 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Misc
+  description: 'Look at this amazing program I made! It even has its own special error
+    handler! Surely this application cannot be broken...'
+  difficulty: Medium
+  discord: juscodin
+  files:
+  - dist/math_server.py
+  flags:
+  - flag: GCTF23{VaRiaBl3_unB!nd!Ng_i$_$O_CO01}
+    regex: false
+  hints: null
+  name: Math Server
+  requirements: null
+services:
+  math-server-1:
+    name: math-server-1
+    path: service/math-server-1
+    port: '1337'

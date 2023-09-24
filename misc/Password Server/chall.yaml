@@ -1,0 +1,19 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Misc
+  description: 'Just guess the password and get the flag. Simple, right?'
+  difficulty: Medium
+  discord: juscodin
+  files:
+  - dist/main.py
+  flags:
+  - flag: GCTF23{t!min9_4TT4cks_aR3_sO_Co0L}
+    regex: false
+  hints: null
+  name: Password Server
+  requirements: null
+services:
+  password-server-1:
+    name: password-server-1
+    path: service/password-server-1
+    port: '1337'
