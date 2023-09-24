@@ -3,7 +3,7 @@ from Crypto.Hash import SHA256
 from Crypto.Util.Padding import pad
 from secrets import token_bytes
 
-flag = b'GCTF{???}'
+flag = b'GCTF23{???}'
 
 def kdf(key):
     for _ in range(5):

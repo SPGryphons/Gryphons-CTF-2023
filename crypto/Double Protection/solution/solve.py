@@ -49,5 +49,5 @@ for j in range(2**16):
         print(f'Key 1 = {K1.hex()}\nKey 2 = {K2.hex()}')
         C1 = AES.new(K1,AES.MODE_CBC,IV)
         C2 = AES.new(K2,AES.MODE_OFB,IV)
-        print(unpad(C1.decrypt(C2.decrypt(flag)),16).decode())
+        print(unpad(C1.decrypt(C2.decrypt(flag)),16).decode()) # this flag is GCTF{ not GCTF23 but it should still work with the new update
         break
