@@ -1,0 +1,18 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Web
+  description: Okay I fixed the previous "bug", let's see if you can do it again!
+  difficulty: Easy
+  discord: juscodin
+  files: null
+  flags:
+  - flag: GCTF23{w3bsOCK3T5_foR_7he_W!N}
+    regex: false
+  hints: null
+  name: Number Guessr 2
+  requirements: null
+services:
+  number-guessr-2:
+    name: number-guessr-2
+    path: service/number-guessr-2
+    port: '1337'
