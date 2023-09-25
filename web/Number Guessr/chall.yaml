@@ -1,0 +1,18 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Web
+  description: 'Let''s see if you''re lucky enough!'
+  difficulty: Easy
+  discord: juscodin
+  files: null
+  flags:
+  - flag: GCTF23{B@d_cL!en7_5iD3_va1IDAt!0n}
+    regex: false
+  hints: null
+  name: Number Guessr
+  requirements: null
+services:
+  number-guessr-1:
+    name: number-guessr-1
+    path: service/number-guessr-1
+    port: '1337'
