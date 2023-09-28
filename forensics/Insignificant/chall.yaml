@@ -7,7 +7,7 @@ challenge:
   files:
   - dist/chall.png
   flags:
-  - flag: GCTF2023{l3Ast_s1gniF1canT_b1t}
+  - flag: GCTF23{l3Ast_s1gniF1canT_b1t}
     regex: false
   hints:
   - cost: 100
