@@ -20,7 +20,7 @@ def str_cmp(s1, s2):
   if len(s1) != len(s2):
     return False
   for a, b in zip(s1, s2):
-    time.sleep(0.0001)
+    time.sleep(0.001)
     if a != b:
       return False
   return True
