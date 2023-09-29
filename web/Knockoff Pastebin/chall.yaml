@@ -1,7 +1,10 @@
 challenge:
   author: Bryan Lim (JusCodin)
   category: Web
-  description: Introducing Knockoff Pastebin, a safe and secure Pastebin clone to fulfill all your pasting needs!
+  description: >
+    Introducing Knockoff Pastebin, a safe and secure Pastebin clone to fulfill all your pasting needs!
+
+    Note: You do not need to brute force anything for this challenge, and you can complete Knockoff Pastebin 1 & 2 in any order.
   difficulty: Hard
   discord: juscodin
   files:
