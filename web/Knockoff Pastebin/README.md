@@ -1,6 +1,8 @@
 # Knockoff Pastebin
 Introducing Knockoff Pastebin, a safe and secure Pastebin clone to fulfill all your pasting needs!
 
+Note: You do not need to brute force anything for this challenge, and you can complete Knockoff Pastebin 1 & 2 in any order.
+
 ## Summary
 - **Author:** Bryan Lim (JusCodin)
 - **Discord Username:** juscodin
