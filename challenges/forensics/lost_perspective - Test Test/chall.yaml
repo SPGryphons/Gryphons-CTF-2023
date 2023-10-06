@@ -1,0 +1,40 @@
+challenge:
+  # The name of the challenge author
+  author: 'Eugene'
+
+  # The category of the challenge
+  category: 'Forensics'
+
+  # The description of the challenge
+  description: 'Simple steganography challenge with hidden files'
+
+  # The difficulty of the challenge
+  difficulty: 'Easy'
+
+  # The discord username of the author
+  discord: 'testing.a'
+
+  # The files for the challenge
+  # This should be a list of filepaths relative to the folder this file is in.
+  # If you have to files, just set it to null
+  files:
+  - dist/you_cant_see_me.mp4
+
+  # The flags for the challenge
+  flags:
+  - flag: GCTF23{you_found_me}
+    regex: false
+
+  # The hints for the challenge
+  hints:
+  - cost: 0
+    description: 'Someone changed how your computer interprets this file!'
+    requirements: null
+  
+  # The name of the challenge
+  name: 'lost_perspective'
+
+  # The requirements for the challenge
+  # This should be a list of challenge names that the user must have completed before
+  # being able to see this challenge
+  requirements: null

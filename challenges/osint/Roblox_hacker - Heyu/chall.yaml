@@ -1,0 +1,16 @@
+challenge:
+  author: Chen Heyu
+  category: Osint
+  description: 'A Roblox Developer by the name of "TheBestMrH" has stole the flag, try and find it'
+  difficulty: Easy
+  discord: _housefly_
+  files: null
+
+
+  flags:
+  - flag: GCTF23{R0blox_tH3_beSt?}
+    regex: false
+  hints: null
+  name: Roblox Hacker
+  requirements: null
+services: null

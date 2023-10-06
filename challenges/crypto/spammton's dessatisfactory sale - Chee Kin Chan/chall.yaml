@@ -1,0 +1,18 @@
+challenge:
+  author: Chan Chee Kin
+  category: Crypto
+  description: 'HELLO THERE ARE YOU LOOKING TO BUY ONE OF [[SPAMTOMS]] EYE CATCHING
+    PRODUCTS. THEY ARE GURANTEED ONE. HUNDRED!!!!! PERCENT TO DRIVE YOU INTO [[INSANITY]]!!!!!!!!
+
+    '
+  difficulty: Easy
+  discord: hsl__
+  files:
+  - dist/cipher.txt
+  flags:
+  - flag: GCTF23{jEv1L_Kn0WS}
+    regex: false
+  hints: null
+  name: spammton's dessatisfactory sale
+  requirements: null
+services: null

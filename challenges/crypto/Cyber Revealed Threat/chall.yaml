@@ -1,0 +1,20 @@
+challenge:
+  author: 'Bryant Ten'
+  category: Crypto
+  description: 'The Cyber Threat Team intercepted an encrypted message, can you help to decrypt it? Flag is GCTF23{decoded_flag}'
+  difficulty: 'Medium'
+  discord: 'tensei10'
+  files:
+  - dist/chall.txt
+  - dist/chall2.txt
+  flags:
+  - flag: GCTF23{cH1nese_reM4inder_the0reM}
+    regex: false
+  hints:
+  - cost: 100
+    description: Chinese Remainder Theorem (chall.txt are the numbers and chall2.txt are the remainders)
+    requirements: null
+  name: 'Cyber Revealed Threat'
+  requirements: null
+services: null
+

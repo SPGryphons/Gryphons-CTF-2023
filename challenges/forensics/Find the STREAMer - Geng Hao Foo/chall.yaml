@@ -1,0 +1,22 @@
+challenge:
+  author: Foo Geng Hao
+  category: Forensics
+  description: 'Hmmm, there''s this streamer I''m trying to find, but I cant quite
+    remember who it is. Help me find who, please?
+
+    (Please use Winrar and windows file system to do this)'
+  difficulty: Easy
+  discord: zaptr0s
+  files:
+  - dist/find_the_streamer.rar
+  flags:
+  - flag: GCTF23{y3S_1t_is_meMcH0}
+    regex: false
+  hints:
+  - cost: 150
+    description: What are the different methods to hide files in files? One is specific
+      to images, the other is not
+    requirements: null
+  name: Find the STREAMer
+  requirements: null
+services: null
