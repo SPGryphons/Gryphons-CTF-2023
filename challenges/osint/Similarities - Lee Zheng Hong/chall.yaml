@@ -1,0 +1,21 @@
+challenge:
+  author: Lee Zheng Hong
+  category: Osint
+  description: "What is something that the website, \"sp.edu.sg\" and Converse had\
+    \ in common from November 2022 to March 2023?\n\nRemove \"GTM-\" from the answer,\
+    \ then follow this format to get the flag (without the quotation marks and replace\
+    \ \"...\" with your answer):\_\"GCTF23{...}\""
+  difficulty: Easy
+  discord: alexkukupp
+  files: null
+  flags:
+  - flag: GCTF23{AW-786488718}
+    regex: false
+  hints:
+  - cost: 50
+    description: The tool that can assist you is under "Domain Name" > "Analytics"
+      in the OSINT Framework.
+    requirements: null
+  name: Similarities
+  requirements: null
+services: null
