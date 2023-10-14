@@ -5,16 +5,16 @@ This directory contains all challenges.
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
 | Web | 2 | 3 | 2 | 7 |
-| Forensics | 4 | 1 | 2 | 7 |
+| Forensics | 4 | 1 | 3 | 8 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 0 | 2 | 0 | 2 |
 | Re | 0 | 1 | 1 | 2 |
 | Pwn | 1 | 0 | 0 | 1 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 10 | 10 | 7 | 27 |
+| Total | 10 | 10 | 8 | 28 |
 
 
-## Challenges (27 total)
+## Challenges (28 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [A Bull's Dream](<./web/A Bull's Dream>) | Navigate through a b... | Web | Medium | Jimmy Liaw |
@@ -27,6 +27,7 @@ This directory contains all challenges.
 | [5 stages of zip](<./forensics/5 stages of zip>) | Experience all 5 sta... | Forensics | Hard | Koh Kai En |
 | [Audio Collapse](<./misc/Audio Collapse>) | Not even gods can st... | Misc | Easy | Branson Woo |
 | [Find the STREAMer](<./forensics/Find the STREAMer>) | Hmmm, there's this s... | Forensics | Easy | Foo Geng Hao |
+| [Foreigner Forensics](<./forensics/Foreigner Forensics>) | We managed to catch ... | Forensics | Hard | Aum Jiwoo |
 | [Insignificant](<./forensics/Insignificant>) | There is something h... | Forensics | Medium | Bryant Ten |
 | [lost_perspective](<./forensics/lost_perspective>) | Simple steganography... | Forensics | Easy | Eugene |
 | [QR Code SOS](<./forensics/QR Code SOS>) | Hey there, digital d... | Forensics | Hard | Mah Wen Qiang |

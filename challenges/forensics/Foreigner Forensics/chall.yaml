@@ -1,0 +1,19 @@
+challenge:
+  author: Aum Jiwoo
+  category: Forensics
+  description: 'We managed to catch a suspected cyber criminal, but he claims he does
+    not know English! We imaged two of his devices : His computer, and his thumb drive.
+    Use this information to find out what he was up to!'
+  difficulty: Hard
+  discord: covon
+  files:
+  - dist/challenge.txt
+  flags:
+  - flag: GCTF23{AnT1_F0rens1cz}
+    regex: false
+  hints:
+  - cost: 100
+    description: https://github.com/e-ago/bitcracker
+  name: Foreigner Forensics
+  requirements: null
+services: null
