@@ -6,6 +6,9 @@ COPY flag.txt /flag.txt
 
 RUN python3 -m pip install -r /app/requirements.txt
 
+RUN mkdir /app/keys && \
+    mkdir /app/uploads
+
 RUN groupadd -r app && \
     useradd -r -g app app
 
