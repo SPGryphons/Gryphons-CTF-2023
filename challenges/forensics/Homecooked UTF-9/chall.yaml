@@ -1,0 +1,20 @@
+challenge:
+  author: Lucius Chee Zihan
+  category: Forensics
+  description: "Mum we can we have UTF-9?\nNo, we already have UTF-9 at home\nUTF-9\
+    \ at home:\n1 byte stores 9 bits now! \nUse the same prefixes and ranges as UTF-8."
+  difficulty: Medium
+  discord: lcz5
+  files:
+  - dist/encoded.txt
+  - dist/flag.zip
+  flags:
+  - flag: GCTF23{St@ndaRDs_4R3_FuN!_7dd3449}
+    regex: false
+  hints:
+  - cost: 50
+    description: RFC 4042 is not relevant.
+    requirements: null
+  name: Homecooked UTF-9
+  requirements: null
+services: null
