@@ -9,12 +9,12 @@ This directory contains all challenges.
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 1 | 2 | 0 | 3 |
 | Re | 0 | 2 | 1 | 3 |
-| Pwn | 1 | 0 | 0 | 1 |
+| Pwn | 1 | 1 | 0 | 2 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 12 | 12 | 8 | 32 |
+| Total | 12 | 13 | 8 | 33 |
 
 
-## Challenges (32 total)
+## Challenges (33 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [A Bull's Dream](<./web/A Bull's Dream>) | Navigate through a b... | Web | Medium | Jimmy Liaw |
@@ -47,5 +47,6 @@ This directory contains all challenges.
 | [foreigner](<./re/foreigner>) | Talking to others is... | Re | Medium | Gabriel |
 | [Lost License](<./re/Lost License>) | A software company h... | Re | Hard | Aai Xun En Ryan |
 | [RSM Corp](<./pwn/RSM Corp>) | You have infiltrated... | Pwn | Easy | Lennon Chee |
+| [Take it down!](<./pwn/Take it down!>) | TAKE IT DOWN TAKE IT... | Pwn | Medium | Gabriel |
 | [Roblox Hacker](<./osint/Roblox Hacker>) | A Roblox Developer b... | Osint | Easy | Chen Heyu |
 | [Similarities](<./osint/Similarities>) | What is something th... | Osint | Easy | Lee Zheng Hong |
