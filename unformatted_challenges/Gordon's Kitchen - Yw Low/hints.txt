@@ -1,0 +1,5 @@
+Hint 1: Use cyberchef (https://gchq.github.io/CyberChef/) or any decoder (0 pt)
+
+Hint 2: The recipe shows the order of how the message is encrypted (30 pts)
+
+Hint 3: Encrypt -> To, Decrypt -> From (10 pts)

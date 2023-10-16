@@ -1,0 +1,17 @@
+challenge:
+  author: 'Ivan'
+  category: 'Misc'
+  description: 'You have found a ZIP file named ZIP_STORED that contains some key information about this particular CTF Challenge, however, you realise that it is locked.\nNote: Bruteforcing is not the intended solution.'
+  difficulty: 'Easy'
+  discord: 'neurological'
+  files:
+  - dist/ZIP_STORED.zip
+  flags:
+  - flag: GCTF23{b1h4m_4nd_k0ch3r's_kn0wn_pl41nt3xt_4tt4ck}
+    regex: false
+  hints:
+  - cost: 100
+    description: 'The ZIP file seems to be zipped by the older "ZipCrypto Store" method... Are there simpler/faster methods to crack this ZIP file?'
+    requirements: null
+  name: 'ZIP_STORED'
+  requirements: null

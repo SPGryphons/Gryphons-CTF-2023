@@ -1,0 +1,8 @@
+# Solution
+Based off the challenge title (or any other way to determine the method of zipping the file), we can guess that the ZIP file was zipped using the older 'Store' method, meaning that the files aren't compressed. The tool used for this solution is known as bkcrack and running `.\bkcrack.exe -L {TargetZipFileHere}`, we are able to confirm that the files are zipped using the older 'Store' method.
+
+Since we know that the contents of the ZIP file is the content of this challenge, we know that the challenge details.txt file should contain the exact same challenge details given to us in the challenge. Hence, we are able to perform a known plaintext attack using the bkcrack tool. Firstly, make a file with the known plaintext (Do note that you need a minimum of 12 bytes of known plaintext). Using bkcrack: `.\bkcrack.exe -C {TargetZipFile} -c {TargetFileWithinTheZipFile} -p {FileWithKnownPlaintext}`. Bkcrack would then be able to get "keys" from this particular set of known plaintext (refer to the bkcrack github to find out more about what you can do with the keys). 
+
+From here, we are able to use bkcrack to find out what is inside the flag.txt file! `.\bkcrack.exe -C {TargetZipFile} -c {FileToDecrypt} -k {keys} -d {OutputFile}`
+
+A very easy challenge through the use of this tool. For more information about this tool you can check out the github (https://github.com/kimci86/bkcrack) or you can search up 'Biham and Kocher's known plaintext attack' to learn more about this.
