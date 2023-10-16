@@ -7,14 +7,14 @@ This directory contains all challenges.
 | Web | 3 | 3 | 2 | 8 |
 | Forensics | 4 | 2 | 3 | 9 |
 | Crypto | 1 | 3 | 2 | 6 |
-| Misc | 1 | 2 | 0 | 3 |
+| Misc | 1 | 2 | 1 | 4 |
 | Re | 0 | 2 | 1 | 3 |
 | Pwn | 1 | 1 | 0 | 2 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 12 | 13 | 8 | 33 |
+| Total | 12 | 13 | 9 | 34 |
 
 
-## Challenges (33 total)
+## Challenges (34 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [A Bull's Dream](<./web/A Bull's Dream>) | Navigate through a b... | Web | Medium | Jimmy Liaw |
@@ -40,6 +40,7 @@ This directory contains all challenges.
 | [spammton's dessatisfactory sale](<./crypto/spammton's dessatisfactory sale>) | HELLO THERE ARE YOU ... | Crypto | Easy | Chan Chee Kin |
 | [super funny crypto](<./crypto/super funny crypto>) | Just a simple python... | Crypto | Hard | Bryan Lim (JusCodin) |
 | [XORing Through](<./crypto/XORing Through>) | My classmate locked ... | Crypto | Medium | Koh Kai En |
+| [Droid's Toolbox](<./misc/Droid's Toolbox>) | Droid always keeps h... | Misc | Hard | Lucius Chee Zihan |
 | [Math Server](<./misc/Math Server>) | Look at this amazing... | Misc | Medium | Bryan Lim (JusCodin) |
 | [Password Server](<./misc/Password Server>) | Just guess the passw... | Misc | Medium | Bryan Lim (JusCodin) |
 | [ZIP_STORED](<./misc/ZIP_STORED>) | You have found a ZIP... | Misc | Easy | Ivan |
