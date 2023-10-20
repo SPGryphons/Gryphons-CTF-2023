@@ -1,0 +1,9 @@
+config:
+  categories:
+  - forensics
+  - crypto
+  - osint
+  difficulties:
+  - name: easy
+    value: 1000
+  name: GCTF
