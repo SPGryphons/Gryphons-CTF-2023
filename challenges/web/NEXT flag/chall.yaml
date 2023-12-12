@@ -20,7 +20,7 @@ challenge:
   name: NEXT flag
   requirements: null
 services:
-  NextJS Timeless:
-    name: NextJS Timeless
+  nextjs-timeless:
+    name: nextjs-timeless
     path: service/NextJS Timeless
     port: '3000'
