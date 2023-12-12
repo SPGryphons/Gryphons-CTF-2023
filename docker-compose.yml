@@ -3,7 +3,7 @@ services:
     build: challenges/web/A Bull's Dream/service/Bulls-Dream
     container_name: bulls-dream
     ports:
-    - 8000:1337
+    - 8000:80
     restart: always
   double_protection:
     build: challenges/crypto/Double Protection/service/double_protection
