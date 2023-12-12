@@ -27,7 +27,7 @@ services:
     build: challenges/misc/Math Server/service/math-server-1
     container_name: math-server-1
     ports:
-    - 10001:1337
+    - 10000:1337
     restart: always
   nextjs-timeless:
     build: challenges/web/NEXT flag/service/NextJS Timeless
@@ -57,7 +57,7 @@ services:
     build: challenges/misc/Password Server/service/password-server-1
     container_name: password-server-1
     ports:
-    - 10002:1337
+    - 10001:1337
     restart: always
   take_it_down:
     build: challenges/pwn/Take it down!/service/take_it_down
