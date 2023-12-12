@@ -11,12 +11,6 @@ services:
     ports:
     - 9000:1337
     restart: always
-  droid-toolbox-server:
-    build: challenges/misc/Droid's Toolbox/service/droid-toolbox-server
-    container_name: droid-toolbox-server
-    ports:
-    - 10000:10083
-    restart: always
   knockoff-pastebin:
     build: challenges/web/Knockoff Pastebin/service/knockoff-pastebin
     container_name: knockoff-pastebin
