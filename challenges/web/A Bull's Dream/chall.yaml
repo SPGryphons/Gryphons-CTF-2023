@@ -40,4 +40,4 @@ services:
   bulls-dream:
     name: bulls-dream
     path: service/Bulls-Dream
-    port: '1337'
+    port: '80'
