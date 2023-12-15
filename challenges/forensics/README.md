@@ -5,11 +5,11 @@ This directory contains challenges related to Forensics.
 | Difficulty | Number of Challenges |
 | ---------- |:--------------------:|
 | Easy | 4 |
-| Medium | 2 |
+| Medium | 3 |
 | Hard | 3 |
-| Total | 9 |
+| Total | 10 |
 
-## Challenges (9 total)
+## Challenges (10 total)
 | Name | Description | Difficulty | Author |
 | ---- | ----------- | ---------- | ------ |
 | [5 stages of zip](<./5 stages of zip>) | Experience all 5 sta... | Hard | Koh Kai En |
@@ -20,4 +20,5 @@ This directory contains challenges related to Forensics.
 | [Insignificant](<./Insignificant>) | There is something h... | Medium | Bryant Ten |
 | [lost_perspective](<./lost_perspective>) | Simple steganography... | Easy | Eugene |
 | [QR Code SOS](<./QR Code SOS>) | Hey there, digital d... | Hard | Mah Wen Qiang |
+| [Shell's Digital Discovery](<./Shell's Digital Discovery>) | Explore a digital jo... | Medium | Ng Li Ling |
 | [StegaZip](<./StegaZip>) | Hey, Freshie! The bo... | Easy | Branson Woo |

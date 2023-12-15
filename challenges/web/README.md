@@ -4,16 +4,17 @@ This directory contains challenges related to Web.
 ## Difficulty Distribution
 | Difficulty | Number of Challenges |
 | ---------- |:--------------------:|
-| Easy | 3 |
+| Easy | 4 |
 | Medium | 3 |
 | Hard | 2 |
-| Total | 8 |
+| Total | 9 |
 
-## Challenges (8 total)
+## Challenges (9 total)
 | Name | Description | Difficulty | Author |
 | ---- | ----------- | ---------- | ------ |
 | [A Bull's Dream](<./A Bull's Dream>) | Navigate through a b... | Medium | Jimmy Liaw |
 | [Cat Revolution](<./Cat Revolution>) | Whiskerius Maximus a... | Medium | Rowhith |
+| [Hidden In Plain Site](<./Hidden In Plain Site>) | your friend, liu Bol... | Easy | Nihal Deb |
 | [Knockoff Pastebin](<./Knockoff Pastebin>) | Introducing Knockoff... | Hard | Bryan Lim (JusCodin) |
 | [Knockoff Pastebin 2](<./Knockoff Pastebin 2>) | Knockoff Pastebin se... | Hard | Bryan Lim (JusCodin) |
 | [NEXT flag](<./NEXT flag>) | An intern created a ... | Easy | Leong Yu Zhi Andy |

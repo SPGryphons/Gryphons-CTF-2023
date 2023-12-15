@@ -4,21 +4,22 @@ This directory contains all challenges.
 ## Difficulty Distribution
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
-| Web | 3 | 3 | 2 | 8 |
-| Forensics | 4 | 2 | 3 | 9 |
+| Web | 4 | 3 | 2 | 9 |
+| Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 1 | 5 |
 | Re | 0 | 2 | 1 | 3 |
 | Pwn | 1 | 1 | 0 | 2 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 13 | 13 | 9 | 35 |
+| Total | 14 | 14 | 9 | 37 |
 
 
-## Challenges (35 total)
+## Challenges (37 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [A Bull's Dream](<./web/A Bull's Dream>) | Navigate through a b... | Web | Medium | Jimmy Liaw |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
+| [Hidden In Plain Site](<./web/Hidden In Plain Site>) | your friend, liu Bol... | Web | Easy | Nihal Deb |
 | [Knockoff Pastebin](<./web/Knockoff Pastebin>) | Introducing Knockoff... | Web | Hard | Bryan Lim (JusCodin) |
 | [Knockoff Pastebin 2](<./web/Knockoff Pastebin 2>) | Knockoff Pastebin se... | Web | Hard | Bryan Lim (JusCodin) |
 | [NEXT flag](<./web/NEXT flag>) | An intern created a ... | Web | Easy | Leong Yu Zhi Andy |
@@ -33,6 +34,7 @@ This directory contains all challenges.
 | [Insignificant](<./forensics/Insignificant>) | There is something h... | Forensics | Medium | Bryant Ten |
 | [lost_perspective](<./forensics/lost_perspective>) | Simple steganography... | Forensics | Easy | Eugene |
 | [QR Code SOS](<./forensics/QR Code SOS>) | Hey there, digital d... | Forensics | Hard | Mah Wen Qiang |
+| [Shell's Digital Discovery](<./forensics/Shell's Digital Discovery>) | Explore a digital jo... | Forensics | Medium | Ng Li Ling |
 | [StegaZip](<./steganography/StegaZip>) | Hey, Freshie! The bo... | Steganography | Easy | Branson Woo |
 | [Chain](<./crypto/Chain>) | After multiple secur... | Crypto | Medium | Ethan Yong Beng Hin |
 | [Cyber Revealed Threat](<./crypto/Cyber Revealed Threat>) | The Cyber Threat Tea... | Crypto | Medium | Bryant Ten |
