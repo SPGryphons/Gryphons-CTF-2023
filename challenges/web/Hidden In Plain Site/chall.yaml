@@ -10,7 +10,7 @@ challenge:
     your friend, liu Bolin, has just locked your FED CA2 website project behind a super-secure* lock page, and you need guess his gender in order to get the username and password to unlock it. But this is 2023, so you can't assume gender. Hence, you get only one attempt to login in, b4 you are forever locked out of the page. Find other ways how you can get the username[its gender] and password[no. of pronouns for that gender] to login and save your days worth of work. The flag is GCTF23{"username"+"password"}
 
   # The difficulty of the challenge
-  difficulty: 'easy'
+  difficulty: 'Easy'
 
   # The discord username of the author
   discord: 'urlookingatapotato'
@@ -18,16 +18,7 @@ challenge:
   # The files for the challenge
   # This should be a list of filepaths relative to the folder this file is in.
   # If you have to files, just set it to null
-  files:
-  - index.html
-  - script.js
-  - styles.css
-  - images/headphone.png
-  - images/information.png
-  - images/logo.png
-  - images/qrcode.png
-  - images/reset.png
-  - images/square.png
+  files: null
 
   # The flags for the challenge
   flags:
@@ -56,7 +47,7 @@ challenge:
 services:
 
   # The name of the service
-  container-name:
-    name: container-name
-    path: service/container-name
-    port: '1337'
+  hidden-site:
+    name: hidden-site
+    path: service/hidden-site
+    port: '80'
