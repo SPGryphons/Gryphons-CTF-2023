@@ -3,11 +3,10 @@ challenge:
   author: 'Nihal Deb'
 
   # The category of the challenge
-  category: 'pwn'
+  category: 'Web'
 
   # The description of the challenge
-  description: >
-    your friend, liu Bolin, has just locked your FED CA2 website project behind a super-secure* lock page, and you need guess his gender in order to get the username and password to unlock it. But this is 2023, so you can't assume gender. Hence, you get only one attempt to login in, b4 you are forever locked out of the page. Find other ways how you can get the username[its gender] and password[no. of pronouns for that gender] to login and save your days worth of work. The flag is GCTF23{"username"+"password"}
+  description: "your friend, liu Bolin, has just locked your FED CA2 website project behind a super-secure* lock page, and you need guess his gender in order to get the username and password to unlock it. But this is 2023, so you can't assume gender. Hence, you get only one attempt to login in, b4 you are forever locked out of the page. Find other ways how you can get the username[its gender] and password[no. of pronouns for that gender] to login and save your days worth of work. The flag is GCTF23{\"username\"+\"password\"}"
 
   # The difficulty of the challenge
   difficulty: 'Easy'
@@ -23,17 +22,14 @@ challenge:
   # The flags for the challenge
   flags:
   - flag: GCTF23{IKEAgender8}
-    regex: [A-Z]{4}$[a-z]{6}$[0-9]{1}$
+    regex: false
 
   # The hints for the challenge
   hints:
   - cost: 50
     description: 'I wonder if i could bring the recaptcha to the front'
     requirements: null
-  - cost: 100
-    description: 'The username is in [A-Z]{4}$[a-z]{6}$ format'
-    requirements: unlocking the first hint
-  
+
   # The name of the challenge
   name: 'Hidden In Plain Site'
 
