@@ -13,14 +13,14 @@ import time
 
 CHARSET = string.ascii_lowercase + string.digits
 
-password = "".join(secrets.choice(CHARSET) for _ in range(8))
+password = "".join(secrets.choice(CHARSET) for _ in range(5))
 
 
 def str_cmp(s1, s2):
   if len(s1) != len(s2):
     return False
   for a, b in zip(s1, s2):
-    time.sleep(0.001)
+    time.sleep(0.1)
     if a != b:
       return False
   return True

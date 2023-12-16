@@ -17,7 +17,7 @@ from rich.progress import (
 
 
 N = 10
-PWD_LEN = 8
+PWD_LEN = 5
 CHARSET = string.ascii_lowercase + string.digits
 CONN = ("127.0.0.1", 1337)
 
@@ -66,7 +66,7 @@ def find_next_char(prefix, pos_attempt_task_id):
   for i, char in enumerate(CHARSET):
     char_attempt_task_id = char_attempt_progress.add_task("", char=char, total=N)
 
-    attempt = prefix + char + "0" * (PWD_LEN - len(prefix) - 1)
+    attempt = prefix + char + "." * (PWD_LEN - len(prefix) - 1)
     timings = get_attempt_timings(attempt, char_attempt_task_id)
 
     median = statistics.median(timings)
