@@ -6,7 +6,7 @@ import statistics
 from operator import itemgetter
 
 N = 10
-PWD_LEN = 8
+PWD_LEN = 5
 CHARSET = string.ascii_lowercase + string.digits
 CONN = ("127.0.0.1", 1337)
 
@@ -47,7 +47,7 @@ def find_next_char(prefix):
 
   print(f"Trying to find next char for prefix {prefix}")
   for i, char in enumerate(CHARSET):
-    timings = get_attempt_timings(prefix + char + "0" * (PWD_LEN - len(prefix) - 1))
+    timings = get_attempt_timings(prefix + char + "." * (PWD_LEN - len(prefix) - 1))
 
     median = statistics.median(timings)
     min_ = min(timings)
