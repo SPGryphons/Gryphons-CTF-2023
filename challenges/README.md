@@ -4,14 +4,14 @@ This directory contains all challenges.
 ## Difficulty Distribution
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
-| Web | 3 | 1 | 3 | 7 |
+| Web | 3 | 2 | 2 | 7 |
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 2 | 6 |
 | Re | 0 | 2 | 1 | 3 |
 | Pwn | 0 | 4 | 0 | 4 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 12 | 15 | 11 | 38 |
+| Total | 12 | 16 | 10 | 38 |
 
 
 ## Challenges (38 total)
@@ -19,7 +19,7 @@ This directory contains all challenges.
 | ---- | ----------- | -------- | ---------- | ------ |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
 | [Knockoff Pastebin](<./web/Knockoff Pastebin>) | Introducing Knockoff... | Web | Hard | Bryan Lim (JusCodin) |
-| [Knockoff Pastebin 2](<./web/Knockoff Pastebin 2>) | Knockoff Pastebin se... | Web | Hard | Bryan Lim (JusCodin) |
+| [Knockoff Pastebin 2](<./web/Knockoff Pastebin 2>) | Knockoff Pastebin se... | Web | Medium | Bryan Lim (JusCodin) |
 | [NEXT flag](<./web/NEXT flag>) | An intern created a ... | Web | Easy | Leong Yu Zhi Andy |
 | [Number Guessr](<./web/Number Guessr>) | Let's see if you're ... | Web | Easy | Bryan Lim (JusCodin) |
 | [Number Guessr 2](<./web/Number Guessr 2>) | Okay I fixed the pre... | Web | Easy | Bryan Lim (JusCodin) |
