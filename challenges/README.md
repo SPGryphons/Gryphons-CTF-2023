@@ -9,12 +9,12 @@ This directory contains all challenges.
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 2 | 6 |
 | Re | 0 | 2 | 1 | 3 |
-| Pwn | 1 | 1 | 0 | 2 |
+| Pwn | 3 | 1 | 0 | 4 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 13 | 13 | 10 | 36 |
+| Total | 15 | 13 | 10 | 38 |
 
 
-## Challenges (36 total)
+## Challenges (38 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
@@ -49,6 +49,8 @@ This directory contains all challenges.
 | [Droid's Login](<./re/Droid's Login>) | Can you find the pas... | Re | Medium | Lucius Chee Zihan |
 | [foreigner](<./re/foreigner>) | Talking to others is... | Re | Medium | Gabriel |
 | [Lost License](<./re/Lost License>) | A software company h... | Re | Hard | Aai Xun En Ryan |
+| [APC corp](<./pwn/APC corp>) | We have infiltrated ... | Pwn | Easy | Lennon Chee |
+| [PDS corp](<./pwn/PDS corp>) | PDS Corp has commite... | Pwn | Easy | Lennon Chee |
 | [RSM Corp](<./pwn/RSM Corp>) | You have infiltrated... | Pwn | Easy | Lennon Chee |
 | [Take it down!](<./pwn/Take it down!>) | TAKE IT DOWN TAKE IT... | Pwn | Medium | Gabriel |
 | [Roblox Hacker](<./osint/Roblox Hacker>) | A Roblox Developer b... | Osint | Easy | Chen Heyu |
