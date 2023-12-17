@@ -12,7 +12,7 @@ challenge:
   discord: lcz5
   files:
   - dist/droid-server-dist.zip
-  - dist/droid_toolbox.apk
+  - dist/droid-toolbox.apk
   flags:
   - flag: GCTF23{AndR01D_Is_S0_Fun!_f9fee49985}
     regex: false

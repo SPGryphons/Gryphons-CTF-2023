@@ -9,8 +9,7 @@ challenge:
     <a href="https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Win.exe">Virtualbox 6.0.24 Windows</a>
   difficulty: Medium
   discord: tanjirokamado5928
-  files:
-  - dist/rsmcorp.txt
+  files: null
   flags:
   - flag: GCTF23{L3g@cy_Syst3ms_@re_H@rd_t0_P@tch}
     regex: false
