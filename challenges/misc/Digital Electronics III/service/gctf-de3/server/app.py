@@ -54,7 +54,7 @@ def static_playground(path):
     return send_from_directory('/app/server/ui/dist', path) 
 
 @app.route("/")
-def redirect():
+def home():
   return redirect("/playground/index.html")
 
 if __name__ == '__main__':
