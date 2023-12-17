@@ -8,13 +8,13 @@ This directory contains all challenges.
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 2 | 6 |
-| Re | 0 | 2 | 1 | 3 |
+| Re | 0 | 2 | 0 | 2 |
 | Pwn | 0 | 4 | 0 | 4 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 12 | 16 | 10 | 38 |
+| Total | 12 | 16 | 9 | 37 |
 
 
-## Challenges (38 total)
+## Challenges (37 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
@@ -48,7 +48,6 @@ This directory contains all challenges.
 | [ZIP_STORED](<./misc/ZIP_STORED>) | You have found a ZIP... | Misc | Easy | Ivan |
 | [Droid's Login](<./re/Droid's Login>) | Can you find the pas... | Re | Medium | Lucius Chee Zihan |
 | [foreigner](<./re/foreigner>) | Talking to others is... | Re | Medium | Gabriel |
-| [Lost License](<./re/Lost License>) | A software company h... | Re | Hard | Aai Xun En Ryan |
 | [APC corp](<./pwn/APC corp>) | We have infiltrated ... | Pwn | Medium | Lennon Chee |
 | [PDS corp](<./pwn/PDS corp>) | PDS Corp has commite... | Pwn | Medium | Lennon Chee |
 | [RSM Corp](<./pwn/RSM Corp>) | You have infiltrated... | Pwn | Medium | Lennon Chee |
