@@ -6,7 +6,7 @@ PDS Corp has commited war crimes in the Afghanistan war and has commited mass ge
 - **Author:** Lennon chee
 - **Discord Username:** tanjirokamado5928
 - **Category:** Pwn
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Hints
 None

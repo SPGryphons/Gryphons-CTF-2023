@@ -4,14 +4,14 @@ This directory contains all challenges.
 ## Difficulty Distribution
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
-| Web | 3 | 2 | 2 | 7 |
+| Web | 3 | 1 | 3 | 7 |
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 2 | 6 |
 | Re | 0 | 2 | 1 | 3 |
-| Pwn | 3 | 1 | 0 | 4 |
+| Pwn | 0 | 4 | 0 | 4 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 15 | 13 | 10 | 38 |
+| Total | 12 | 15 | 11 | 38 |
 
 
 ## Challenges (38 total)
@@ -23,7 +23,7 @@ This directory contains all challenges.
 | [NEXT flag](<./web/NEXT flag>) | An intern created a ... | Web | Easy | Leong Yu Zhi Andy |
 | [Number Guessr](<./web/Number Guessr>) | Let's see if you're ... | Web | Easy | Bryan Lim (JusCodin) |
 | [Number Guessr 2](<./web/Number Guessr 2>) | Okay I fixed the pre... | Web | Easy | Bryan Lim (JusCodin) |
-| [Number Guessr 3](<./web/Number Guessr 3>) | Let's find out if yo... | Web | Medium | Bryan Lim (JusCodin) |
+| [Number Guessr 3](<./web/Number Guessr 3>) | Let's find out if yo... | Web | Hard | Bryan Lim (JusCodin) |
 | [5 stages of zip](<./forensics/5 stages of zip>) | Experience all 5 sta... | Forensics | Hard | Koh Kai En |
 | [Audio Collapse](<./forensics/Audio Collapse>) | Not even gods can st... | Forensics | Easy | Branson Woo |
 | [Find the STREAMer](<./forensics/Find the STREAMer>) | Hmmm, there's this s... | Forensics | Easy | Foo Geng Hao |
@@ -49,9 +49,9 @@ This directory contains all challenges.
 | [Droid's Login](<./re/Droid's Login>) | Can you find the pas... | Re | Medium | Lucius Chee Zihan |
 | [foreigner](<./re/foreigner>) | Talking to others is... | Re | Medium | Gabriel |
 | [Lost License](<./re/Lost License>) | A software company h... | Re | Hard | Aai Xun En Ryan |
-| [APC corp](<./pwn/APC corp>) | We have infiltrated ... | Pwn | Easy | Lennon Chee |
-| [PDS corp](<./pwn/PDS corp>) | PDS Corp has commite... | Pwn | Easy | Lennon Chee |
-| [RSM Corp](<./pwn/RSM Corp>) | You have infiltrated... | Pwn | Easy | Lennon Chee |
+| [APC corp](<./pwn/APC corp>) | We have infiltrated ... | Pwn | Medium | Lennon Chee |
+| [PDS corp](<./pwn/PDS corp>) | PDS Corp has commite... | Pwn | Medium | Lennon Chee |
+| [RSM Corp](<./pwn/RSM Corp>) | You have infiltrated... | Pwn | Medium | Lennon Chee |
 | [Take it down!](<./pwn/Take it down!>) | TAKE IT DOWN TAKE IT... | Pwn | Medium | Gabriel |
 | [Roblox Hacker](<./osint/Roblox Hacker>) | A Roblox Developer b... | Osint | Easy | Chen Heyu |
 | [Similarities](<./osint/Similarities>) | What is something th... | Osint | Easy | Lee Zheng Hong |

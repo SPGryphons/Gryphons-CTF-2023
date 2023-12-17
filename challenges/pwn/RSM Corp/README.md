@@ -5,7 +5,7 @@ You have infiltrated the network of RSM Corp (MNC) that so happens the be using 
 - **Author:** Lennon chee
 - **Discord Username:** tanjirokamado5928
 - **Category:** Pwn
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Hints
 None

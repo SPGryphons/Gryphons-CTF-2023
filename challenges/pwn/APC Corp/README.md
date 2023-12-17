@@ -6,7 +6,7 @@ We have infiltrated into APC corp network, we would like to take over APC corp's
 - **Author:** Lennon chee
 - **Discord Username:** tanjirokamado5928
 - **Category:** Pwn
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Hints
 None

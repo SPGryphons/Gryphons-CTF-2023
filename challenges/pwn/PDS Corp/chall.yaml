@@ -7,8 +7,7 @@ challenge:
 
     <a href="https://drive.google.com/file/d/1AvggFgWBplzp3f5vd0p84tqfPChQBwI7/view?usp=sharing">Download Challenge (Unzip with 7-Zip)</a>
     <a href="https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Win.exe">Virtualbox 6.0.24 Windows</a>
-
-  difficulty: Easy
+  difficulty: Medium
   discord: tanjirokamado5928
   files: null
   flags:
