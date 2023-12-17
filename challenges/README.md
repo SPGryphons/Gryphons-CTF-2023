@@ -4,20 +4,19 @@ This directory contains all challenges.
 ## Difficulty Distribution
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
-| Web | 4 | 3 | 2 | 9 |
+| Web | 4 | 2 | 2 | 8 |
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 1 | 5 |
 | Re | 0 | 2 | 1 | 3 |
 | Pwn | 1 | 1 | 0 | 2 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 14 | 14 | 9 | 37 |
+| Total | 14 | 13 | 9 | 36 |
 
 
-## Challenges (37 total)
+## Challenges (36 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
-| [A Bull's Dream](<./web/A Bull's Dream>) | Navigate through a b... | Web | Medium | Jimmy Liaw |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
 | [Hidden In Plain Site](<./web/Hidden In Plain Site>) | your friend, liu Bol... | Web | Easy | Nihal Deb |
 | [Knockoff Pastebin](<./web/Knockoff Pastebin>) | Introducing Knockoff... | Web | Hard | Bryan Lim (JusCodin) |
@@ -27,7 +26,7 @@ This directory contains all challenges.
 | [Number Guessr 2](<./web/Number Guessr 2>) | Okay I fixed the pre... | Web | Easy | Bryan Lim (JusCodin) |
 | [Number Guessr 3](<./web/Number Guessr 3>) | Let's find out if yo... | Web | Medium | Bryan Lim (JusCodin) |
 | [5 stages of zip](<./forensics/5 stages of zip>) | Experience all 5 sta... | Forensics | Hard | Koh Kai En |
-| [Audio Collapse](<./misc/Audio Collapse>) | Not even gods can st... | Misc | Easy | Branson Woo |
+| [Audio Collapse](<./forensics/Audio Collapse>) | Not even gods can st... | Forensics | Easy | Branson Woo |
 | [Find the STREAMer](<./forensics/Find the STREAMer>) | Hmmm, there's this s... | Forensics | Easy | Foo Geng Hao |
 | [Foreigner Forensics](<./forensics/Foreigner Forensics>) | We managed to catch ... | Forensics | Hard | Aum Jiwoo |
 | [Homecooked UTF-9](<./forensics/Homecooked UTF-9>) | Mum we can we have U... | Forensics | Medium | Lucius Chee Zihan |
