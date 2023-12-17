@@ -5,14 +5,13 @@ This directory contains challenges related to Web.
 | Difficulty | Number of Challenges |
 | ---------- |:--------------------:|
 | Easy | 3 |
-| Medium | 2 |
+| Medium | 1 |
 | Hard | 2 |
-| Total | 7 |
+| Total | 6 |
 
-## Challenges (7 total)
+## Challenges (6 total)
 | Name | Description | Difficulty | Author |
 | ---- | ----------- | ---------- | ------ |
-| [Cat Revolution](<./Cat Revolution>) | Whiskerius Maximus a... | Medium | Rowhith |
 | [Knockoff Pastebin](<./Knockoff Pastebin>) | Introducing Knockoff... | Hard | Bryan Lim (JusCodin) |
 | [Knockoff Pastebin 2](<./Knockoff Pastebin 2>) | Knockoff Pastebin se... | Medium | Bryan Lim (JusCodin) |
 | [NEXT flag](<./NEXT flag>) | An intern created a ... | Easy | Leong Yu Zhi Andy |
