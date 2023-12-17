@@ -9,11 +9,11 @@ config:
   - osint
   difficulties:
   - name: easy
-    value: 500
+    value: 1000
   - name: medium
-    value: 500
+    value: 1000
   - name: hard
-    value: 500
+    value: 1000
   name: GCTF
   port: 8000
   port_mappings:
