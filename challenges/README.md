@@ -4,21 +4,20 @@ This directory contains all challenges.
 ## Difficulty Distribution
 | Category | Easy | Medium | Hard | Total |
 | -------- |:----:|:------:|:----:|:-----:|
-| Web | 4 | 2 | 2 | 8 |
+| Web | 3 | 2 | 2 | 7 |
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
 | Misc | 2 | 2 | 2 | 6 |
 | Re | 0 | 2 | 1 | 3 |
 | Pwn | 1 | 1 | 0 | 2 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 14 | 13 | 10 | 37 |
+| Total | 13 | 13 | 10 | 36 |
 
 
-## Challenges (37 total)
+## Challenges (36 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [Cat Revolution](<./web/Cat Revolution>) | Whiskerius Maximus a... | Web | Medium | Rowhith |
-| [Hidden In Plain Site](<./web/Hidden In Plain Site>) | your friend, liu Bol... | Web | Easy | Nihal Deb |
 | [Knockoff Pastebin](<./web/Knockoff Pastebin>) | Introducing Knockoff... | Web | Hard | Bryan Lim (JusCodin) |
 | [Knockoff Pastebin 2](<./web/Knockoff Pastebin 2>) | Knockoff Pastebin se... | Web | Hard | Bryan Lim (JusCodin) |
 | [NEXT flag](<./web/NEXT flag>) | An intern created a ... | Web | Easy | Leong Yu Zhi Andy |
