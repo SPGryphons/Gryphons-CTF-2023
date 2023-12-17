@@ -1,0 +1,19 @@
+challenge:
+  author: Lennon Chee
+  category: Pwn
+  description: |
+    PDS Corp has commited war crimes in the Afghanistan war and has commited mass genocide and is in violation of the geneve convetion. Evidence of such wrong doings are on this workstation. We have infiltrated into PDS's Corprate Network (Shitty Firewall) Kindly attack this workstation remotely.
+    Please use the specified Virtualbox version to run the VM.
+
+    <a href="https://drive.google.com/file/d/1AvggFgWBplzp3f5vd0p84tqfPChQBwI7/view?usp=sharing">Download Challenge (Unzip with 7-Zip)</a>
+    <a href="https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Win.exe">Virtualbox 6.0.24 Windows</a>
+
+  difficulty: Easy
+  discord: tanjirokamado5928
+  files: null
+  flags:
+  - flag: GCTF23{B1u3k33p_w1th_rd9_@nd_R@nd0m_BS0D}
+    regex: false
+  hints: null
+  name: PDS corp
+  requirements: null

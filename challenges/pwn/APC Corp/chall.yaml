@@ -1,0 +1,18 @@
+challenge:
+  author: Lennon Chee
+  category: Pwn
+  description: |
+    We have infiltrated into APC corp network, we would like to take over APC corp's domain controller, could you help us find a user with comprimised password?
+    Please use the specified Virtualbox version to run the VM.
+
+    <a href="https://drive.google.com/file/d/1RbcNmCo1IvePIj_FVRE1NdG6g9ieYJKz/view?usp=drive_link">Download Challenge (Unzip with 7-Zip)</a>
+    <a href="https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Win.exe">Virtualbox 6.0.24 Windows</a>
+  difficulty: Easy
+  discord: tanjirokamado5928
+  files: null
+  flags:
+  - flag: GCTF23{1sn't-Z3r0L0g0n-F3n?}
+    regex: false
+  hints: null
+  name: APC corp
+  requirements: null
