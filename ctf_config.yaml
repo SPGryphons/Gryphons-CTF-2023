@@ -20,6 +20,9 @@ config:
     double_protection:
       from_port: '1337'
       to_port: '9000'
+    droid-toolbox-server:
+      from_port: '10083'
+      to_port: '10001'
     gctf-de3:
       from_port: '5000'
       to_port: '10000'
@@ -31,7 +34,7 @@ config:
       to_port: '8001'
     math-server-1:
       from_port: '1337'
-      to_port: '10001'
+      to_port: '10002'
     nextjs-timeless:
       from_port: '3000'
       to_port: '8002'
@@ -46,7 +49,7 @@ config:
       to_port: '8005'
     password-server-1:
       from_port: '1337'
-      to_port: '10002'
+      to_port: '10003'
     take_it_down:
       from_port: '1337'
       to_port: '11000'

@@ -31,3 +31,8 @@ challenge:
     requirements: null
   name: Droid's Toolbox
   requirements: null
+services:
+  droid-toolbox-server:
+    name: droid-toolbox-server
+    path: service/droid-toolbox-server
+    port: '10083'
