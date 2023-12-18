@@ -5,13 +5,13 @@ You have infiltrated the network of RSM Corp (MNC) that so happens the be using 
 - **Author:** Lennon chee
 - **Discord Username:** tanjirokamado5928
 - **Category:** Pwn
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Hints
 None
 
 ## Files
-- [`rsmcorp.txt`](dist\rsmcorp.txt)
+None
 
 ## Flags
 - `GCTF23{L3g@cy_Syst3ms_@re_H@rd_t0_P@tch}` (static)

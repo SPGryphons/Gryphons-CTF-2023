@@ -6,7 +6,7 @@ Knockoff Pastebin seems to be undergoing maintenance, but maybe you can still fi
 - **Author:** Bryan Lim (JusCodin)
 - **Discord Username:** juscodin
 - **Category:** Web
-- **Difficulty:** Hard
+- **Difficulty:** Medium
 
 ## Hints
 None

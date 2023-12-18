@@ -6,7 +6,7 @@ Let's find out if you can predict the future :)
 - **Author:** Bryan Lim (JusCodin)
 - **Discord Username:** juscodin
 - **Category:** Web
-- **Difficulty:** Medium
+- **Difficulty:** Hard
 
 ## Hints
 - `Ever heard of Mersenne Twisters?` (100 points)

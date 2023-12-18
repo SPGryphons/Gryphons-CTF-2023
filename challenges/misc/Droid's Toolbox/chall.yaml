@@ -12,7 +12,7 @@ challenge:
   discord: lcz5
   files:
   - dist/droid-server-dist.zip
-  - dist/droid_toolbox.apk
+  - dist/droid-toolbox.apk
   flags:
   - flag: GCTF23{AndR01D_Is_S0_Fun!_f9fee49985}
     regex: false
@@ -31,3 +31,8 @@ challenge:
     requirements: null
   name: Droid's Toolbox
   requirements: null
+services:
+  droid-toolbox-server:
+    name: droid-toolbox-server
+    path: service/droid-toolbox-server
+    port: '10083'

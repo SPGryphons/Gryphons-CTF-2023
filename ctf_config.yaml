@@ -9,44 +9,47 @@ config:
   - osint
   difficulties:
   - name: easy
-    value: 500
+    value: 1000
   - name: medium
-    value: 500
+    value: 1000
   - name: hard
-    value: 500
+    value: 1000
   name: GCTF
   port: 8000
   port_mappings:
-    bulls-dream:
-      from_port: '80'
-      to_port: '8000'
     double_protection:
       from_port: '1337'
       to_port: '9000'
+    droid-toolbox-server:
+      from_port: '10083'
+      to_port: '10003'
+    gctf-de3:
+      from_port: '5000'
+      to_port: '10000'
     knockoff-pastebin:
       from_port: '1337'
-      to_port: '8001'
+      to_port: '8000'
     knockoff-pastebin-2:
       from_port: '1337'
-      to_port: '8002'
+      to_port: '8001'
     math-server-1:
       from_port: '1337'
-      to_port: '10000'
+      to_port: '10001'
     nextjs-timeless:
       from_port: '3000'
-      to_port: '8003'
+      to_port: '8002'
     number-guessr-1:
       from_port: '1337'
-      to_port: '8004'
+      to_port: '8003'
     number-guessr-2:
       from_port: '1337'
-      to_port: '8005'
+      to_port: '8004'
     number-guessr-3:
       from_port: '1337'
-      to_port: '8006'
+      to_port: '8005'
     password-server-1:
       from_port: '1337'
-      to_port: '10001'
+      to_port: '10002'
     take_it_down:
       from_port: '1337'
       to_port: '11000'

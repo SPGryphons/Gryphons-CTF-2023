@@ -2,7 +2,7 @@ challenge:
   author: Bryan Lim (JusCodin)
   category: Web
   description: 'Let''s find out if you can predict the future :)'
-  difficulty: Medium
+  difficulty: Hard
   discord: juscodin
   files:
   - dist/app.py

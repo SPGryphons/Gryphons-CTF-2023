@@ -4,7 +4,7 @@ Not even gods can stand before this and live...
 ## Summary
 - **Author:** Branson Woo
 - **Discord Username:** b0hlia0_th3_j3st3r
-- **Category:** Misc
+- **Category:** Forensics
 - **Difficulty:** Easy
 
 ## Hints

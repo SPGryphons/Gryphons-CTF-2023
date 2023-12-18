@@ -3,7 +3,7 @@ challenge:
   category: Web
   description: 'Knockoff Pastebin seems to be undergoing maintenance, but maybe you
     can still find your way in and get the flag?'
-  difficulty: Hard
+  difficulty: Medium
   discord: juscodin
   files:
   - dist/Knockoff Pastebin 2.zip

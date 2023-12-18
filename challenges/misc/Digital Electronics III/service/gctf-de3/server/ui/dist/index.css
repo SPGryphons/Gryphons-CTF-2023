@@ -1,0 +1,22 @@
+
+html, body {
+    display: "flex";
+}
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+.main {
+    display: "flex";
+    flex-flow: column;
+    flex-direction: column;    
+    height: 100vh;
+}
+#editor-component {
+    flex: 1;
+}
+
+#submission {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

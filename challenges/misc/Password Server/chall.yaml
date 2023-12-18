@@ -5,7 +5,7 @@ challenge:
   difficulty: Medium
   discord: juscodin
   files:
-  - dist/main.py
+  - dist/password_server.py
   flags:
   - flag: GCTF23{t!min9_4TT4cks_aR3_sO_Co0L}
     regex: false
