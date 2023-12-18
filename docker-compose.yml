@@ -5,6 +5,12 @@ services:
     ports:
     - 9000:1337
     restart: always
+  droid-toolbox-server:
+    build: challenges/misc/Droid's Toolbox/service/droid-toolbox-server
+    container_name: droid-toolbox-server
+    ports:
+    - 10003:10083
+    restart: always
   gctf-de3:
     build: challenges/misc/Digital Electronics III/service/gctf-de3
     container_name: gctf-de3
