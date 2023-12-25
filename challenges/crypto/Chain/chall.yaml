@@ -1,0 +1,20 @@
+challenge:
+  author: Ethan Yong Beng Hin
+  category: Crypto
+  description: After multiple security breaches, you have decided to call an external
+    cybersecurity expert to implement a new and secure password encryption system.
+    He promises that it's virtually unbreakable (whatever that means), and gave you
+    a sample ciphertext to try breaking. a2V5OkRPTlRVU0VWSUdFTkVSRSBtZXNzYWdlOkwgTCBrdmxid2ggRCBsb2hhJ3ggeW1ncyBnYWNrIG96ZyBvcmZtdWkgZCBmbmJmIHhpaWtrIC4gWHVpaWkndiBnYiB5eW8gbWkgQW9ydGVnc3VzISB7SsK3csK3WlNFSlFYV0dLdnBzb3IsWk4yey1aTS1BS1ZJRk0tRkxRfXp5d1czVVItQy1WT30=
+  difficulty: Medium
+  discord: KerasTookTheKids
+  files: null
+  flags:
+  - flag: GCTF23{A-CHAIN-OF-CIPHERS-IS-NOTHING}
+    regex: false
+  hints:
+  - cost: 10
+    description: Notice the last symbol at the end of the first ciphertext
+    requirements: null
+  name: Chain
+  requirements: null
+services: null

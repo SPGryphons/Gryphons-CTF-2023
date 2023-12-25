@@ -1,0 +1,19 @@
+challenge:
+  author: 'Bryant Ten'
+  category: 'Forensics'
+  description: 'There is something hidden in the image, is it really significant?'
+  difficulty: 'Medium'
+  discord: 'tensei10'
+  files:
+  - dist/chall.png
+  flags:
+  - flag: GCTF23{l3Ast_s1gniF1canT_b1t}
+    regex: false
+  hints:
+  - cost: 100
+    description: Least Significant Bit
+    requirements: null
+  name: 'Insignificant'
+  requirements: null
+services: null
+

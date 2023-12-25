@@ -1,0 +1,74 @@
+services:
+  double_protection:
+    build: challenges/crypto/Double Protection/service/double_protection
+    container_name: double_protection
+    ports:
+    - 9000:1337
+    restart: always
+  droid-toolbox-server:
+    build: challenges/misc/Droid's Toolbox/service/droid-toolbox-server
+    container_name: droid-toolbox-server
+    ports:
+    - 10003:10083
+    restart: always
+  gctf-de3:
+    build: challenges/misc/Digital Electronics III/service/gctf-de3
+    container_name: gctf-de3
+    ports:
+    - 10000:5000
+    restart: always
+  knockoff-pastebin:
+    build: challenges/web/Knockoff Pastebin/service/knockoff-pastebin
+    container_name: knockoff-pastebin
+    ports:
+    - 8000:1337
+    restart: always
+  knockoff-pastebin-2:
+    build: challenges/web/Knockoff Pastebin 2/service/knockoff-pastebin-2
+    container_name: knockoff-pastebin-2
+    ports:
+    - 8001:1337
+    restart: always
+  math-server-1:
+    build: challenges/misc/Math Server/service/math-server-1
+    container_name: math-server-1
+    ports:
+    - 10001:1337
+    restart: always
+  nextjs-timeless:
+    build: challenges/web/NEXT flag/service/NextJS Timeless
+    container_name: nextjs-timeless
+    ports:
+    - 8002:3000
+    restart: always
+  number-guessr-1:
+    build: challenges/web/Number Guessr/service/number-guessr-1
+    container_name: number-guessr-1
+    ports:
+    - 8003:1337
+    restart: always
+  number-guessr-2:
+    build: challenges/web/Number Guessr 2/service/number-guessr-2
+    container_name: number-guessr-2
+    ports:
+    - 8004:1337
+    restart: always
+  number-guessr-3:
+    build: challenges/web/Number Guessr 3/service/number-guessr-3
+    container_name: number-guessr-3
+    ports:
+    - 8005:1337
+    restart: always
+  password-server-1:
+    build: challenges/misc/Password Server/service/password-server-1
+    container_name: password-server-1
+    ports:
+    - 10002:1337
+    restart: always
+  take_it_down:
+    build: challenges/pwn/Take it down!/service/take_it_down
+    container_name: take_it_down
+    ports:
+    - 11000:1337
+    restart: always
+version: '3'

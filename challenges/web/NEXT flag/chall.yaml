@@ -1,0 +1,26 @@
+challenge:
+  author: Leong Yu Zhi Andy
+  category: Web
+  description: An intern created a simple login application using NextJS and hid the
+    flag behind the login page, find the mistake that he made in securing his flag
+    page.
+  difficulty: Easy
+  discord: timeles
+  files: null
+  flags:
+  - flag: GCTF2023{nExT_jS_1s_4w3s0m3}
+    regex: false
+  hints:
+  - cost: 50
+    description: /flag
+    requirements: null
+  - cost: 100
+    description: Cookies
+    requirements: null
+  name: NEXT flag
+  requirements: null
+services:
+  nextjs-timeless:
+    name: nextjs-timeless
+    path: service/NextJS Timeless
+    port: '3000'

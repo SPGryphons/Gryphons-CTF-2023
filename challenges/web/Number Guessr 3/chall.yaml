@@ -1,0 +1,22 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Web
+  description: 'Let''s find out if you can predict the future :)'
+  difficulty: Hard
+  discord: juscodin
+  files:
+  - dist/app.py
+  flags:
+  - flag: GCTF23{p$eUDoR4ndOM_iS_N07_trUe_Random}
+    regex: false
+  hints:
+  - cost: 100
+    description: Ever heard of Mersenne Twisters?
+    requirements: null
+  name: Number Guessr 3
+  requirements: null
+services:
+  number-guessr-3:
+    name: number-guessr-3
+    path: service/number-guessr-3
+    port: '1337'

@@ -1,0 +1,1 @@
+flag = b'GCTF23{d0Ubl3_eNcRyp71on_1sNt_g0oD}'

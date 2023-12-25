@@ -1,0 +1,26 @@
+challenge:
+  author: Ng Li Ling
+  category: Forensics
+  description: Explore a digital journey where mysterious instructions guide you through
+    layers of encryption. Discover a concealed flag hidden in the shadows.
+  difficulty: Medium
+  discord: 1l2m1c02
+  files:
+  - dist/Images.zip
+  - dist/data.dat
+  flags:
+  - flag: GCTF23{D1g1t4l_D3t3ct1v3_Cr4ck_C0d3}
+    regex: false
+  hints:
+  - cost: 100
+    description: Shell
+    requirements: null
+  - cost: 150
+    description: Decode pixels to reveal passphrase.
+    requirements: null
+  - cost: 100
+    description: Enhance your audio experience with DeepSound
+    requirements: null
+  name: Shell's Digital Discovery
+  requirements: null
+services: null

@@ -1,0 +1,20 @@
+challenge:
+  author: Koh Kai En
+  category: Crypto
+  description: I got Man-In-The-Middle'd the last time I used protection. This time
+    I have DOUBLE the protection!
+  difficulty: Hard
+  discord: thereconman
+  files:
+  - dist/app.py
+  flags:
+  - flag: GCTF23{d0Ubl3_eNcRyp71on_1sNt_g0oD}
+    regex: false
+  hints: null
+  name: Double Protection
+  requirements: null
+services:
+  double_protection:
+    name: double_protection
+    path: service/double_protection
+    port: '1337'

@@ -1,0 +1,22 @@
+challenge:
+  author: Lucius Chee Zihan
+  category: Re
+  description: "Can you find the password Droid uses to log in to his Toolbox?\n>>>\
+    \ Enclose it with GCTF23{<password here>}\n>>> e.g. If the password is \"password123\"\
+    , the flag shall be GCTF23{password123} \n>>> Tip: An Android device is recommended.\
+    \ If you do not have one, you can use the emulator on Android Studio, or you can\
+    \ use GenyMotion.\n"
+  difficulty: Medium
+  discord: lcz5
+  files:
+  - dist/droid-toolbox.apk
+  flags:
+  - flag: GCTF23{f62264b387396e88b28766bbf5bbe8ec5623}
+    regex: false
+  hints:
+  - cost: 100
+    description: The password can be extracted from the APK itself.
+    requirements: null
+  name: Droid's Login
+  requirements: null
+services: null

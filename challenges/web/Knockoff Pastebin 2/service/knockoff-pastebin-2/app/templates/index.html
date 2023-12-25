@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Knockoff Pastebin{% endblock %}
+{% block nav_items %}
+  {% if logged_in %}
+  <li class="nav-item">
+    <a class="nav-link" href="/profile">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/create">Create</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/logout">Logout</a>
+  </li>
+  {% else %}
+  <li class="nav-item">
+    <a class="nav-link" href="/login">Login</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/register">Register</a>
+  </li>
+  {% endif %}
+{% endblock %}
+{% block jumbo_title %}Welcome to Knockoff Pastebin!{% endblock %}
+{% block main %}
+<p>Knockoff Pastebin is a simple and secure Pastebin clone for all your pasting needs!
+  <br><br>
+  - Want to get started? <a href="/register">Register</a> for an account!
+  <br>
+  - Already have an account? <a href="/login">Login</a> to start pasting!
+</p>
+{% endblock %}

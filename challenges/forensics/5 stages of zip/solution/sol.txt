@@ -1,0 +1,5 @@
+denial - flip byte orientation (the file bytes are reversed entirely)
+anger - bruteforce password (7z aes: schoolsucks zip2john bruteforce)
+bargaining - CRC checksum failure on files  (binwalk-able)
+depression - 2000 rounds of unzipping (use a script to unzip it all) 
+acceptance - bkcrack zipcrypto vulnerability (deflate alg + pdf file that is from sp's website) (pw used to encrypt should not be recoverable)

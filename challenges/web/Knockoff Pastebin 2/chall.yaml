@@ -1,0 +1,20 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Web
+  description: 'Knockoff Pastebin seems to be undergoing maintenance, but maybe you
+    can still find your way in and get the flag?'
+  difficulty: Medium
+  discord: juscodin
+  files:
+  - dist/Knockoff Pastebin 2.zip
+  flags:
+  - flag: GCTF23{wh0_wrO7e_THi$_HORRIBlE_c0De???}
+    regex: false
+  hints: null
+  name: Knockoff Pastebin 2
+  requirements: null
+services:
+  knockoff-pastebin-2:
+    name: knockoff-pastebin-2
+    path: service/knockoff-pastebin-2
+    port: '1337'

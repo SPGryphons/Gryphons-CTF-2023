@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+{% block nav_items %}
+  <li class="nav-item">
+    <a class="nav-link active" href="/profile">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/create">Create</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/logout">Logout</a>
+  </li>
+{% endblock %}
+{% block jumbo_title %}Your Pastes{% endblock %}
+{% block jumbo_text %}Welcome, {{ username }}!{% endblock %}
+{% block main %}
+  {% if pastes %}
+    {% for paste in pastes %}
+    <a href="/view/{{ user_id }}/{{ paste }}">
+      <div class="row-cols-1">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ paste }}</h5>
+            <a href="/api/delete/{{ paste }}">
+              <button type="button" class="btn btn-danger">&#128465; Delete</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  {% else %}
+  <div class="row-cols-1">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">You have no pastes</h5>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="text-center py-2">
+    <a href="/create" class="btn btn-primary">Create Paste</a>
+  </div>
+{% endblock %}

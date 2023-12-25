@@ -1,0 +1,19 @@
+challenge:
+  author: Gabriel
+  category: Pwn
+  description: TAKE IT DOWN TAKE IT DOWN
+  difficulty: Medium
+  discord: duckupus
+  files:
+  - dist/noteinator
+  flags:
+  - flag: GCTF23{l33k1nG_s3crets_for_fun_4ND_PR0F1T_1745579}
+    regex: false
+  hints: null
+  name: Take it down!
+  requirements: null
+services:
+  take_it_down:
+    name: take_it_down
+    path: service/take_it_down
+    port: '1337'

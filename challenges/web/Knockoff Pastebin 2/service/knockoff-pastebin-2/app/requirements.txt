@@ -1,0 +1,4 @@
+pyJWT
+flask
+pyotp
+requests

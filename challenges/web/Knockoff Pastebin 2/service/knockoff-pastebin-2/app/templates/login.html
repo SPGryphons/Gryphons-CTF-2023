@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block head %}
+{{ super() }}
+<script src="/static/js/login.js"></script>
+{% endblock %}
+{% block nav_items %}
+<li class="nav-item">
+  <a class="nav-link active" href="/login">Login</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/register">Register</a>
+</li>
+{% endblock %}
+{% block jumbo_title %}Welcome to Knockoff Pastebin!{% endblock %}
+{% block main %}
+<p> Welcome to Knockoff Pastebin! Please login to continue. </p>
+
+<div class="row-cols-1">
+  <div class="error alert alert-danger" role="alert" style="display: none;">
+  </div>
+</div>
+
+<form onsubmit="return false;">
+  <div class="form-group">
+    <label for="username">Username</label> 
+    <input class="form-control" id="username" name="username" type="text" required>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input class="form-control" id="password" name="password" type="password" required>
+  </div>
+  <div class="form-group">
+    <label for="otp">OTP</label>
+    <input class="form-control" id="otp" name="otp" type="text" required>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-primary" onclick="login()">Login</button>
+  </div>
+  <p>Don't have an account? <a href="/register">Register</a></p>
+</form>
+{% endblock %}

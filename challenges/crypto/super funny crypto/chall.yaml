@@ -1,0 +1,16 @@
+challenge:
+  author: Bryan Lim (JusCodin)
+  category: Crypto
+  description: Just a simple python crypto challenge. Only 54 lines of code? Can't
+    be that hard, right?
+  difficulty: Hard
+  discord: juscodin
+  files:
+  - dist/super-funny-crypto.py
+  flags:
+  - flag: GCTF23{WhY_i5_7h!5_COde_S0_cUr5Ed}
+    regex: false
+  hints: null
+  name: super funny crypto
+  requirements: null
+services: null
