@@ -7,14 +7,14 @@ This directory contains all challenges.
 | Web | 3 | 1 | 2 | 6 |
 | Forensics | 4 | 3 | 3 | 10 |
 | Crypto | 1 | 3 | 2 | 6 |
-| Misc | 2 | 2 | 2 | 6 |
+| Misc | 2 | 2 | 1 | 5 |
 | Re | 0 | 2 | 0 | 2 |
 | Pwn | 0 | 4 | 0 | 4 |
 | Osint | 2 | 0 | 0 | 2 |
-| Total | 12 | 15 | 9 | 36 |
+| Total | 12 | 15 | 8 | 35 |
 
 
-## Challenges (36 total)
+## Challenges (35 total)
 | Name | Description | Category | Difficulty | Author |
 | ---- | ----------- | -------- | ---------- | ------ |
 | [Knockoff Pastebin](<./web/Knockoff Pastebin>) | Introducing Knockoff... | Web | Hard | Bryan Lim (JusCodin) |
@@ -40,7 +40,6 @@ This directory contains all challenges.
 | [super funny crypto](<./crypto/super funny crypto>) | Just a simple python... | Crypto | Hard | Bryan Lim (JusCodin) |
 | [XORing Through](<./crypto/XORing Through>) | My classmate locked ... | Crypto | Medium | Koh Kai En |
 | [Digital Electronics III](<./misc/Digital Electronics III>) | Get the flag when th... | Misc | Hard | Lucius Chee Zihan |
-| [Droid's Toolbox](<./misc/Droid's Toolbox>) | Droid always keeps h... | Misc | Hard | Lucius Chee Zihan |
 | [Math Server](<./misc/Math Server>) | Look at this amazing... | Misc | Medium | Bryan Lim (JusCodin) |
 | [Password Server](<./misc/Password Server>) | Just guess the passw... | Misc | Medium | Bryan Lim (JusCodin) |
 | [Recipes](<./misc/Recipes>) | You can get the flag... | Misc | Easy | Lucius Chee Zihan |

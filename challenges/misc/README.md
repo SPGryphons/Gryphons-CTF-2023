@@ -6,14 +6,13 @@ This directory contains challenges related to Misc.
 | ---------- |:--------------------:|
 | Easy | 2 |
 | Medium | 2 |
-| Hard | 2 |
-| Total | 6 |
+| Hard | 1 |
+| Total | 5 |
 
-## Challenges (6 total)
+## Challenges (5 total)
 | Name | Description | Difficulty | Author |
 | ---- | ----------- | ---------- | ------ |
 | [Digital Electronics III](<./Digital Electronics III>) | Get the flag when th... | Hard | Lucius Chee Zihan |
-| [Droid's Toolbox](<./Droid's Toolbox>) | Droid always keeps h... | Hard | Lucius Chee Zihan |
 | [Math Server](<./Math Server>) | Look at this amazing... | Medium | Bryan Lim (JusCodin) |
 | [Password Server](<./Password Server>) | Just guess the passw... | Medium | Bryan Lim (JusCodin) |
 | [Recipes](<./Recipes>) | You can get the flag... | Easy | Lucius Chee Zihan |
